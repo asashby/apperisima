@@ -1,0 +1,29 @@
+.main-header {
+    height: 6.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1450px;
+    height: 100%;
+    margin: 0 auto;
+    
+    .logo-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        height: 100%;
+        width: 13.0px;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+            img {
+                display: block;
+                margin: 0;
+                height: 100%;
+                width: 200px;
+            }
+    }
+}
