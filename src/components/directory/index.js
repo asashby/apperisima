@@ -5,12 +5,9 @@ import './styles.scss';
 
 const Directory = props => {
     return(
-        <div
-            className="directory">
-            <div
-                className="directory-wrapper">
-                <div
-                    className="item"
+        <div className="directory">
+            <div className="directory-wrapper">
+                <div className="item"
                     style={{
                         backgroundImage: `url(${ShopWomenImg})`
                     }}>
@@ -18,8 +15,7 @@ const Directory = props => {
                         Mujeres
                     </a>
                 </div>
-                <div
-                    className="item"
+                <div className="item"
                     style={{
                         backgroundImage: `url(${ShopMenImg})`
                     }}>

@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+
+import './styles.scss';
+
+class Registration extends Component {
+
+    render(){
+        return(
+            <div>
+                <h2>
+                    Registrar
+                </h2>
+            </div>
+        );
+    }
+}
+
+export default Registration;

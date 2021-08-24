@@ -1,8 +1,11 @@
 .directory {
     height: 100%;
+    width: 100%;
     
     .directory-wrapper {
+        display: inline-block;
         height: 100%;
+        width: 100%;
 
         .item {
             width: 50%;
