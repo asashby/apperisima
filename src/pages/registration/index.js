@@ -6,7 +6,7 @@ class Registration extends Component {
 
     render(){
         return(
-            <div>
+            <div className='registration-wrapper'>
                 <h2>
                     Registrar
                 </h2>

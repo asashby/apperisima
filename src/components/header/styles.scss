@@ -1,6 +1,7 @@
 .main-header {
     height: 6.5rem;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    z-index: 3;
 }
 
 .wrapper {
@@ -41,14 +42,47 @@
 
         li {
             list-style-type: none;
+            margin-right: 1.5rem;
+            display: inline-flex;
+            align-items: center;
 
-            a{
+            &:last-child{
+                margin-right: 0;
+            }
+
+            a {
                 font-size: 1.8rem;
                 font-weight: 600;
                 line-height: 1;
-                color: black;
+                color: #af27c7;
                 text-decoration: none;
                 text-transform: uppercase;
+                cursor: pointer;
+                margin: 0 auto;
+            }
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+
+            p{
+                font-size: 1.8rem;
+                font-weight: 600;
+                line-height: 1;
+                color: #af27c7;
+                text-decoration: none;
+                text-transform: uppercase;
+                cursor: pointer;
+                margin: 0 auto;
+            }
+            img {
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 1px solid #af27c7;
+                margin-right: 15px;
             }
         }
     }
