@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-
+import SignUp from '../../components/signUp';
 import './styles.scss';
 
 class Registration extends Component {
 
     render(){
-        return(
+        return (
             <div className='registration-wrapper'>
-                <h2>
-                    Registrar
-                </h2>
+                <SignUp />
             </div>
         );
     }
